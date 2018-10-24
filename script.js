@@ -51,8 +51,8 @@ $(document).ready(() => {
         if ($(event.target).attr("name") && $(event.target).attr("party-number")){
             $(event.target).append(`
             <section class="reservation">
-                Name: ${$(event.target).attr("name")}
-                Size of party: ${$(event.target).attr("party-number")}
+                <p>Name: ${$(event.target).attr("name")}</p>
+                <p>Size of party: ${$(event.target).attr("party-number")}</p>
             </section>
             `);
         }
