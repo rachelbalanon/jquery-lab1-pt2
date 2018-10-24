@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Table Finder</title>
+</head>
+<body>
+    <section class="title-container">
+        <p class="title">Table Finder</p>
+        <p class="directions">Pick your table now.</p>
+    </section>
+
+    <section class="form-container">
+        <i class="material-icons">close</i>
+
+        <p class="form-title">New Reservation</p>
+        <p class="table-number">Table Number:</p>
+        
+        <form class="inputs">
+            <input type="text" class="person-input" placeholder="Name">
+            <input type="text" class="person-input" placeholder="Phone number">
+            <input type="text" class="person-input" placeholder="Size of Party">
+            <button type="button" class="save-btn">SAVE</button>
+        </form>
+    </section>
+
+    <section class="tables-container">
+        <section class="table available">1</section>
+            <!-- <section class="reservation">
+                Name: Rachel
+                Size of party:9
+            </section> -->
+        <section class="table available">2</section>
+        <section class="table available">3</section>
+        <section class="table available">4</section>
+        <section class="table available">5</section>
+        <section class="table available">6</section>
+        <section class="table available">7</section>
+        <section class="table available">8</section>
+        <section class="table available">9</section>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
